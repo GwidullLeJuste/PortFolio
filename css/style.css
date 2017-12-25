@@ -1,0 +1,114 @@
+<meta charset="utf-8">
+
+/* bleu clair -> #3498DB */
+/* bleu foncé -> #2C3E50 */
+
+body, html {
+  padding:0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.separator {
+  height: 3px;
+  width: 5%;
+  border: none;
+  box-shadow: none;
+  background-color: #3498DB;
+}
+
+/* header */
+.header {
+  background-color: #3498DB;
+  height: 70px;
+  line-height: 70px;
+
+}
+
+.logo {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px
+  float: left;
+}
+
+.menu {
+  float: right;
+}
+
+.menu a {
+  color: #FFFFFF;
+  margin-right: 20px;
+}
+.menu a:hover {
+  color: #2C3E50;
+}
+/* bannier */
+
+.banner {
+  width:100%;
+  max-width: 100%;
+}
+
+.ban {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.ban img {
+  width: 100%;
+  max-width: 100%;
+}
+
+.inner-banner {
+  position: absolute;
+  top: 55%;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.inner-banner h1 {
+  color: #FFFFFF;
+  text-shadow: 1px 1px 20px #000000;
+}
+
+.inner-banner .btn-custom {
+  background-color: #3498DB;
+  color: #FFFFFF;
+}
+
+.inner-banner .btn-custom:hover {
+  background-color: #2C3E50;
+}
+/* about */
+
+.about article h2 {
+  text-align: center;
+}
+
+.about {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.about article {
+  margin-top: 10%;
+}
+
+/* portfolio */
+
+/* contact */
